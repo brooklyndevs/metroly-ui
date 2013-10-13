@@ -18,6 +18,26 @@ Footers
 * `.footer-fixed` - will span 100% of the window width, position is fixed to the bottom.
 * `.footer` - will span 100% of the parent container.
 
+
+=======
+Navbar
+------
+
+Use data attributes in your html to wire up a toggle button to a nav menu. Pair the value of the `data-target-nav` attribute with the `id` of the nav menu. Use `.nav-items` to hide the nav menu by default.
+
+```html
+
+  <button class='nav-toggle' data-target-nav='#menu'>Menu</button>
+  <nav id="menu" class='nav-items'>
+    <ul>
+      <li><a href="#item1">Item 1</a></li>
+      <li><a href="#item2">Item 2</a></li>
+      <li><a href="#item3">Item 3</a></li>
+    </ul>
+  </nav>
+
+```
+
 12 Column Grid System
 ---------------------
 
