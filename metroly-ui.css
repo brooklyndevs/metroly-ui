@@ -44,10 +44,22 @@ body {
   height: 50px;
 }
 
-.margin-top-fix {
+.footer-fixed {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:50px;
+   width:100%;
+   background:#999;
+}
+
+.top-fix {
   margin-top: 80px;
 }
 
+.bottom-fix {
+  margin-bottom: 80px;
+}
 
 .col-1,
 .col-2,
@@ -115,4 +127,14 @@ body {
 
 .col-12 {
   width: 100%;
+}
+
+/* For DEV only, XX REMOVE XX */
+
+.row(odd) {
+  background: orange;
+}
+
+.row(even) {
+  background: yellow-green;
 }
