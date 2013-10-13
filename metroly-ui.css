@@ -37,6 +37,7 @@ body {
 .header-main h1 {
   padding-left: 15px;
   padding-right: 15px;
+  display: inline-block;
 }
 
 .footer {
@@ -51,6 +52,23 @@ body {
    height:50px;
    width:100%;
    background:#999;
+}
+
+.nav-toggle {
+  /* Do some styling */
+  background: yellow;
+}
+
+.nav-items {
+  display: none;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
 }
 
 .top-fix {
