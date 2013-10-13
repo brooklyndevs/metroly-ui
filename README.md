@@ -38,7 +38,7 @@ The same applies to fixed footers, use `bottom-fix`.
     <p>I'm good now!</p>
   </div>
   <footer class='footer-fixed'>
-    <h1>Metroly</h1>
+    <p>Metroly &copy; 2013.</p>
   </footer>
 
 ```
