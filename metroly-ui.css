@@ -1,0 +1,140 @@
+html {
+   -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.row {
+  width: 100%;
+  background: red;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.header-main {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: black;
+  color: white;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background: #c0c0c0;
+}
+
+.header h1,
+.header-main h1 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+}
+
+.footer-fixed {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:50px;
+   width:100%;
+   background:#999;
+}
+
+.top-fix {
+  margin-top: 80px;
+}
+
+.bottom-fix {
+  margin-bottom: 80px;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  float: left;
+}
+
+.col-1 {
+  width: 8.333333333333332%;
+  background: orange;
+}
+
+.col-2 {
+  width: 16.666666666666664%;
+  background: yellow;
+}
+
+.col-3 {
+  width: 25%;
+  background: gray;
+}
+
+.col-4 {
+  width: 33.33333333333333%;
+  background: blue;
+}
+
+.col-5 {
+  width: 41.66666666666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.333333333333336%;
+}
+
+.col-8 {
+  width: 66.66666666666666%;
+  background: pink;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33333333333334%;
+}
+
+.col-11 {
+  width: 91.66666666666666%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+/* For DEV only, XX REMOVE XX */
+
+.row(odd) {
+  background: orange;
+}
+
+.row(even) {
+  background: yellow-green;
+}
