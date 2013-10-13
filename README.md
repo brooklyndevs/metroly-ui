@@ -12,6 +12,12 @@ Headers
 * `.header-main` - will span 100% of the window width, position is absolute.
 * `.header` - will span 100% of the parent container.
 
+Footers
+-------
+
+* `.footer-fixed` - will span 100% of the window width, position is fixed to the bottom.
+* `.footer` - will span 100% of the parent container.
+
 12 Column Grid System
 ---------------------
 
