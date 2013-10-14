@@ -10,6 +10,10 @@ body {
   padding-left: 15px;
 }
 
+.container-fluid {
+  padding: 0;
+}
+
 .row {
   width: 100%;
   background: red;
@@ -20,7 +24,7 @@ body {
 
 .header-main {
   width: 100%;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   background: black;
@@ -60,7 +64,8 @@ body {
 }
 
 .nav-items {
-  display: none;
+  -webkit-transition: height .4s ease-in;
+  overflow: hidden;
 }
 
 .pull-left {

@@ -9,7 +9,7 @@ Usage Docs
 Headers
 -------
 
-* `.header-main` - will span 100% of the window width, position is absolute.
+* `.header-main` - will span 100% of the window width, position is fixed.
 * `.header` - will span 100% of the parent container.
 
 Footers
@@ -45,7 +45,7 @@ Use data attributes in your html to wire up a toggle button to a nav menu. Pair 
 Fixes
 -----
 
-Similar to bootstrap, when using absolute positioning like `.header-main`, the first row after the header should be applied a margin-top fix, use `.top-fix`.
+Similar to bootstrap, when using fixed positioning like `.header-main`, the first row after the header should be applied a margin-top fix, use `.top-fix`.
 
 ```html
   <header class='header-main'>
