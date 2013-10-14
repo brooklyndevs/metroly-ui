@@ -31,4 +31,33 @@
     nav.addEventListener('click', toggleFn);
   });
 
+
+  /* Navigation side toggle button(s) */
+  var sideNavToggles = document.querySelector('.side-nav-toggle');
+  var elToMove = document.querySelectorAll('body, .header-main, .footer-fixed');
+  elToMove = Array.prototype.splice.call(elToMove, 0);
+  // console.log(elToMove);
+  elToMove.forEach(function(el){
+     el.style.webkitTransition =   "margin-left 2s";
+    var toggleSideNav = function () {
+
+      var elSideNav = document.querySelector('.side-nav');
+      elSideNav.style.webkitTransition =   "width 2s";
+
+      if(el.style.marginLeft.trim().length > 0){
+        el.style.marginLeft = "";
+        elSideNav.style.width = "0px";
+      }else{
+        el.style.marginLeft = "150px";
+        elSideNav.style.width = "150px";
+      }
+
+    };
+
+    sideNavToggles.addEventListener('click', toggleSideNav);
+  });
+
+
+
+
 }(this));
