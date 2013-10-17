@@ -1,11 +1,26 @@
 (function (root) {
 
+  /* Aliases */
+  var splice = Array.prototype.splice;
+
+
+
+  /* Paging */
+  var pages = document.querySelectorAll('.page');
+  var firstPage = pages[0];
+  pages = splice.call(pages, 0);
+
+  pages.forEach(function (page) {
+    page.style.display = 'none';
+  });
+
+  firstPage.style.display = 'block';
 
   /* Animations XX Break later using grunt */
 
   /* Navigation toggle button(s) */
   var navToggles = document.querySelectorAll('.nav-toggle');
-  navToggles = Array.prototype.splice.call(navToggles, 0);
+  navToggles = splice.call(navToggles, 0);
 
   navToggles.forEach(function (nav) {
 
@@ -34,22 +49,22 @@
 
   /* Navigation side toggle button(s) */
   var sideNavToggles = document.querySelector('.side-nav-toggle');
-  var elToMove = document.querySelectorAll('body, .header-main, .footer-fixed');
-  elToMove = Array.prototype.splice.call(elToMove, 0);
+  var elToMove = document.querySelectorAll('.page');
+  elToMove = splice.call(elToMove, 0);
   // console.log(elToMove);
   elToMove.forEach(function(el){
-     el.style.webkitTransition =   "margin-left 2s";
+     el.style.webkitTransition =   "margin-left .2s";
     var toggleSideNav = function () {
 
       var elSideNav = document.querySelector('.side-nav');
-      elSideNav.style.webkitTransition =   "width 2s";
+      elSideNav.style.webkitTransition =   "width .2s";
 
       if(el.style.marginLeft.trim().length > 0){
         el.style.marginLeft = "";
-        elSideNav.style.width = "0px";
+        // elSideNav.style.width = "0px";
       }else{
         el.style.marginLeft = "150px";
-        elSideNav.style.width = "150px";
+        // elSideNav.style.width = "150px";
       }
 
     };
