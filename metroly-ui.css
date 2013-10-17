@@ -5,6 +5,12 @@ body {
   margin: 0;
 }
 
+.page {
+  position: absolute;
+  width: 100%;
+  background: white;
+}
+
 .container {
   padding-right: 15px;
   padding-left: 15px;
@@ -22,7 +28,7 @@ body {
   margin-bottom: 10px;
 }
 
-.header-main {
+.header-fixed {
   width: 100%;
   position: fixed;
   left: 0;
@@ -39,7 +45,7 @@ body {
 }
 
 .header h1,
-.header-main h1 {
+.header-fixed h1{
   padding-left: 15px;
   padding-right: 15px;
   display: inline-block;
@@ -63,14 +69,6 @@ body {
 .nav-toggle {
   /* Do some styling */
   background: yellow;
-}
-/* Enrique Side Bar*/
-.side-nav{
-  position: absolute;
-  width: 0px;
-  height: 600px;
-  left:0px;
-  background:green;
 }
 
 .nav-items {

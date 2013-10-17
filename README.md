@@ -9,7 +9,7 @@ Usage Docs
 Headers
 -------
 
-* `.header-main` - will span 100% of the window width, position is fixed.
+* `.header-fixed` - will span 100% of the window width, position is fixed.
 * `.header` - will span 100% of the parent container.
 
 Footers
