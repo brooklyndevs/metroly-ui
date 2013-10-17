@@ -1,0 +1,42 @@
+/* Enrique Side Bar*/
+.side-nav {
+  position: fixed;
+  width: 150px;
+  height: 100%;
+  left: 0px;
+  background-color: #202020;
+  color: #cccccc;
+  -webkit-box-shadow: inset -5px 0 15px #000000;
+}
+
+.side-nav-header {
+  font-weight: bold;
+  background-color: #000000;
+  padding:5px !important;
+}
+.side-nav-header,
+.side-nav-single {
+  border-bottom: 1px solid #333333;
+  border-top: 1px solid #000000;
+}
+
+.side-nav-wrapper ul, .side-nav-wrapper p{
+	margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.side-nav-single {
+  padding-left: 30px;
+  /*display: none;*/
+}
+
+.line-red {
+  border-left: 2px solid red;
+}
+
+.line-blue {
+	border-left: 2px solid blue;
+}
