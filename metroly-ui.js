@@ -1,11 +1,26 @@
 (function (root) {
 
+  /* Aliases */
+  var splice = Array.prototype.splice;
+
+
+
+  /* Paging */
+  var pages = document.querySelectorAll('.page');
+  var firstPage = pages[0];
+  pages = splice.call(pages, 0);
+
+  pages.forEach(function (page) {
+    page.style.display = 'none';
+  });
+
+  firstPage.style.display = 'block';
 
   /* Animations XX Break later using grunt */
 
   /* Navigation toggle button(s) */
   var navToggles = document.querySelectorAll('.nav-toggle');
-  navToggles = Array.prototype.splice.call(navToggles, 0);
+  navToggles = splice.call(navToggles, 0);
 
   navToggles.forEach(function (nav) {
 
@@ -30,6 +45,5 @@
 
     nav.addEventListener('click', toggleFn);
   });
-
 
 }(this));
