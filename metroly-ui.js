@@ -3,8 +3,6 @@
   /* Aliases */
   var splice = Array.prototype.splice;
 
-
-
   /* Paging */
   var pages = document.querySelectorAll('.page');
   var firstPage = pages[0];
