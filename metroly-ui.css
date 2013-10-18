@@ -8,7 +8,6 @@ body {
 .page {
   position: absolute;
   width: 100%;
-  background: white;
 }
 
 .container {
@@ -22,7 +21,6 @@ body {
 
 .row {
   width: 100%;
-  background: red;
   float: left;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -33,8 +31,6 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  background: black;
-  color: white;
 }
 
 .header-fixed {
@@ -44,15 +40,6 @@ body {
 .header {
   width: 100%;
   height: 50px;
-  background: #c0c0c0;
-}
-
-.header h1,
-.header-fixed h1,
-.header-absolute h1 {
-  padding-left: 15px;
-  padding-right: 15px;
-  display: inline-block;
 }
 
 .footer {
@@ -67,12 +54,10 @@ body {
    bottom:0px;
    height:50px;
    width:100%;
-   background:#999;
 }
 
 .nav-toggle {
   /* Do some styling */
-  background: yellow;
 }
 
 .nav-items {
@@ -117,22 +102,18 @@ body {
 
 .col-1 {
   width: 8.333333333333332%;
-  background: orange;
 }
 
 .col-2 {
   width: 16.666666666666664%;
-  background: yellow;
 }
 
 .col-3 {
   width: 25%;
-  background: gray;
 }
 
 .col-4 {
   width: 33.33333333333333%;
-  background: blue;
 }
 
 .col-5 {
@@ -149,7 +130,6 @@ body {
 
 .col-8 {
   width: 66.66666666666666%;
-  background: pink;
 }
 
 .col-9 {
