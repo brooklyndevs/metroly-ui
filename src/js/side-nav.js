@@ -20,11 +20,11 @@
     sideNavToggles.addEventListener('click', toggleSideNav);
   });
 
-  SideNav.prototype.setJSON = function(JSON) {
+  // SideNav.prototype.setJSON = function(JSON) {
   
-  };
-  SideNav.prototype.setCollapsible = function(collapsible) {
+  // };
+  // SideNav.prototype.setCollapsible = function(collapsible) {
   
-  };
+  // };
   
 }(this));
