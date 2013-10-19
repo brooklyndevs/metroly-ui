@@ -9,7 +9,8 @@
   // console.log(elToMove);
   elToMove.forEach(function(el){
     el.style.webkitTransition =   "margin-left .4s";
-    var toggleSideNav = function () {
+    var toggleSideNav = function (e) {
+      e.preventDefault();
       if(el.style.marginLeft.trim().length > 0){
         el.style.marginLeft = "";
       }else{
